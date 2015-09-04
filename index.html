@@ -1,0 +1,102 @@
+
+
+<html>
+<head>
+	<title> NK Javascript Calculator</title>
+	
+	<link rel= "stylesheet" href="normalize.css">
+	<link rel= "stylesheet" href="main.css">
+	<link rel= "stylesheet" href="grid.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="java_calculator.js"></script>
+	
+</head>
+<body>
+	
+<!--Row 1 Header-->
+<div class= "row">
+
+	<h1>Natalie and Kim's Javascript Calculator</h1>
+
+</div>
+
+
+
+
+<!--- Row 2 Calculator Boxes-->
+
+<div class= "row">
+		<!-- Input 1-->
+		<div class= "span_2_of_12">
+			<div class= "input-container">
+			<input id ="input1" type="text" placeholder="enter a number">
+			<!--</div>-->
+		<!--<</div>-->
+
+		  	<!-- Empty Spacer-->
+		<div class= "span_1_of_12"></div>
+
+
+		   	<!-- Equation Buttons-->
+		  
+		<div class= "span_1_of_12">
+				<input id="operators" type="text" placeholder="enter an operator +, -, *, /">
+
+
+	
+		   	<!-- Empty Spacer-->
+		<div class= "span_1_of_12"></div>
+
+		   	 	<!-- Input 2-->
+	     <div class= "span_2_of_12">
+	     	<div class= "input-container">
+			<input id="input2" type="text" placeholder="enter a number">
+				</div>
+				</div>
+		   	 	<!-- Empty Space -->
+		<div class= "span_1_of_12"></div>
+
+		   	 	 <!-- Equals Button -->
+		<div class= "span_1_of_12">
+		
+		<button class= "btn" type = "button" id="equals">=</button>
+				</div>
+
+
+
+		   	 	 	<!-- Empty Space -->
+		<div class= "span_1_of_12"> </div>
+
+		   	 	<!-- Output -->
+		<div class= "span_2_of_12">
+			<h2> Answer</h2>
+			<input type ="text" disable = "disable" id="results">
+		 	</div>
+</div>
+</div>
+
+<!--Row 3 New Equation Button-->
+<div class= "row">
+
+
+	<button class= "btn" type = "button">New Equation</button>
+</div>
+
+
+
+<!-- Row 4 Equation History-->
+
+<div class= "row">
+	
+		<h3> Previous Equations<h3>
+	<!--Display previous Equation-->
+	<ol>
+	</ol>
+</div>
+
+
+
+
+
+</body>
+</html>
